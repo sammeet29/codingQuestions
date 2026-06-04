@@ -14,6 +14,10 @@ Example 2:
 Input: s = ["H","a","n","n","a","h"]
 Output: ["h","a","n","n","a","H"]
 ***************************************************************************************************/
+#include <vector>
+
+using std::vector;
+
 class Solution {
 public:
     void reverseString(vector<char>& s) {
